@@ -1,0 +1,27 @@
+// 1. Função tradicional sem parâmetros
+function funcaoTradicionalSemParametros() {
+    console.log("Esta é uma função tradicional sem parâmetros.");
+}
+
+// 2. Função tradicional com parâmetros e retorno de valor
+function soma(a, b) {
+    return a + b;
+}
+
+// 3. Arrow function com parâmetros e retorno de valor
+const multiplicacao = (x, y) => {
+    return x * y;
+};
+
+// Chamando as funções
+funcaoTradicionalSemParametros();
+
+const resultadoSoma = soma(5, 3);
+console.log("Resultado da soma:", resultadoSoma);
+
+const resultadoMultiplicacao = multiplicacao(4, 6);
+console.log("Resultado da multiplicação:", resultadoMultiplicacao);
+
+Esta é uma função tradicional sem parâmetros.
+Resultado da soma: 8
+Resultado da multiplicação: 24
